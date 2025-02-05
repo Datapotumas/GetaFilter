@@ -14,7 +14,7 @@ git clone git@github.com:Datapotumas/GetaFilter.git
 
 [PfamScan](https://github.com/SMRUCC/GCModeller/tree/master/src/interops/scripts/PfamScan/PfamScan) need to be installed
 
-[hmmer](https://github.com/EddyRivasLab/hmmer) 1.3 and database need  to be installed
+[hmmer](https://github.com/EddyRivasLab/hmmer) 3.1 and database need  to be installed
 
 [samtools](https://github.com/samtools/samtools) 1.6 need to be installed
 
