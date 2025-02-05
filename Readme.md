@@ -12,17 +12,17 @@ git clone git@github.com:Datapotumas/GetaFilter.git
 
 [trinity](https://github.com/trinityrnaseq/trinityrnaseq) util script align_and_estimate_abundance.pl need
 
-[PfamScan](https://github.com/SMRUCC/GCModeller/tree/master/src/interops/scripts/PfamScan/PfamScan) need to be install
+[PfamScan](https://github.com/SMRUCC/GCModeller/tree/master/src/interops/scripts/PfamScan/PfamScan) need to be installed
 
-[hmmer](https://github.com/EddyRivasLab/hmmer) 1.3 and database need  to be install
+[hmmer](https://github.com/EddyRivasLab/hmmer) 1.3 and database need  to be installed
 
-[samtools](https://github.com/samtools/samtools) 1.6 need to be install
+[samtools](https://github.com/samtools/samtools) 1.6 need to be installed
 
-[bedtools](https://github.com/arq5x/bedtools2) 2.31.1 need to be install
+[bedtools](https://github.com/arq5x/bedtools2) 2.31.1 need to be installed
 
-[ncbiblast](https://blast.ncbi.nlm.nih.gov/Blast.cgi) need to be install 
+[ncbiblast](https://blast.ncbi.nlm.nih.gov/Blast.cgi) need to be installed
 
-[ParaFly](https://github.com/ParaFly/ParaFly.git) need to be install
+[ParaFly](https://github.com/ParaFly/ParaFly.git) need to be installed
 
 ## Options and usage
 
