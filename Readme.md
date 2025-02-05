@@ -8,7 +8,7 @@ Pipeline for annotation filter
 git clone git@github.com:Datapotumas/GetaFilter.git
 ```
 
-## [Requirement]()
+## Requirement
 
 [trinity](https://github.com/trinityrnaseq/trinityrnaseq) util script align_and_estimate_abundance.pl need
 
@@ -24,7 +24,7 @@ git clone git@github.com:Datapotumas/GetaFilter.git
 
 [ParaFly](https://github.com/ParaFly/ParaFly.git) need to be install
 
-## [Options and usage]()
+## Options and usage
 
 ```
 perl GetaFilter.pl
