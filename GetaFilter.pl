@@ -104,7 +104,7 @@ print "Running RSEM ...\n";
 
 system("grep '>' $CDS|sed 's/>//'|awk '{print \$1\"\t\"\$1}' > gene.map");
 system("ln -s $CDS ./reference.fasta");
-system("~/miniconda3/bin/samtools faidx reference.fasta");
+system("samtools faidx reference.fasta");
 $cmd = $triUtil." --transcripts reference.fasta --seqType fq --left ".$R1." --right ".$R2." --est_method RSEM --aln_method bowtie --gene_trans_map gene.map --prep_reference --output_dir rsem_outdir --thread_count ".$THREADS;
 print "$cmd\n";
 open(OUT, "> run_RSEM.sh") or die"";
@@ -134,7 +134,7 @@ system("makeblastdb -in $HOMO -dbtype prot -out dbname");
 
 my $n_parts = 20;
 print "Spliting fasta into $n_parts files\n";
-system("/home/user/03.Annotation/08.GetaFilter/my_script/splitFa2parts.pl -i $PEP -n $n_parts");
+system("splitFa2parts.pl -i $PEP -n $n_parts");
 system("rm cmd.list") if(-e "cmd.list");
 open(OUT, "> cmd.list") or die"";
 foreach my $i(1..$n_parts){
